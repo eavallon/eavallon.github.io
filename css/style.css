@@ -332,11 +332,11 @@ ul ul, ul ol, ol ul, ol ol {
 }
 
 .fh5co-press {
-  background: #F9FDFB;
+  background: #ffffff;
   padding: 2em 0;
 }
 .fh5co-press .fh5co-press-item {
-  background: #ffffff;
+  background: #F9FDFB;
   float: left;
   margin-bottom: 20px;
 }
@@ -384,7 +384,7 @@ ul ul, ul ol, ol ul, ol ol {
   padding: 5em 0;
 }
 #fh5co-footer a {
-  color: #bababa;
+  color: #F3FBF7;
   border-bottom: 1px solid transparent;
 }
 #fh5co-footer a:hover, #fh5co-footer a:active, #fh5co-footer a:focus {
