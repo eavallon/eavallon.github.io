@@ -78,7 +78,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 26px;
+  font-size: 24px;
   line-height: 38px;
 }
 
@@ -336,7 +336,7 @@ ul ul, ul ol, ol ul, ol ol {
   padding: 2em 0;
 }
 .fh5co-press .fh5co-press-item {
-  background: #F9FDFB;
+  background: #F0FAF6;
   float: left;
   margin-bottom: 20px;
 }
@@ -808,15 +808,15 @@ ul ul, ul ol, ol ul, ol ol {
   border: 2px solid #D34C3A;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-  background: #61dd67;
+  background: #D34C3A;
 }
 
 .btn-success {
-  background: #00e195;
-  border: 2px solid #00e195;
+  background: #D34C3A;
+  border: 2px solid #D34C3A;
 }
 .btn-success:hover, .btn-success:active, .btn-success:focus {
-  background: #00bd7d;
+  background: #D34C3A;
 }
 
 .btn-danger {
@@ -1072,7 +1072,7 @@ ul ul, ul ol, ol ul, ol ol {
   background: #D34C3A;
 }
 .progress-bar.progress-bar-success {
-  background: #00e195;
+  background: #D34C3A;
 }
 .progress-bar.progress-bar-info {
   background: #0bbff2;
