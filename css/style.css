@@ -8,8 +8,8 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 */
 @font-face {
   font-family: 'themify';
-  src: url("../eavallon.github.io/fonts/themify/themify.eot?-fvbane");
-  src: url("../eavallon.github.io/fonts/themify/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("../eavallon.github.io/fonts/themify/themify.woff?-fvbane") format("woff"), url("../eavallon.github.io/fonts/themify/themify.ttf?-fvbane") format("truetype"), url("../eavallon.github.io/fonts/themify/themify.svg?-fvbane#themify") format("svg");
+  src: url("eavallon.github.io/fonts/themify/themify.eot?-fvbane");
+  src: url("eavallon.github.io/fonts/themify/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("eavallon.github.io/fonts/themify/themify.woff?-fvbane") format("woff"), url("eavallon.github.io/fonts/themify/themify.ttf?-fvbane") format("truetype"), url("eavallon.github.io/fonts/themify/themify.svg?-fvbane#themify") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -794,7 +794,7 @@ ul ul, ul ol, ol ul, ol ol {
 
 .btn-outline {
   border: 2px solid #eaeaea !important;
-  background: transparent;
+  background: #ffffff;
   color: #2a2e37;
 }
 .btn-outline:hover, .btn-outline:active, .btn-outline:focus {
