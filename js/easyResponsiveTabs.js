@@ -195,7 +195,9 @@
                             var currentHash = "research";
                             var tabAriaParts = $tabAria.split('tab_item-');
                             // var newHash = respTabsId + (parseInt($tabAria.substring(9), 10) + 1).toString();
-                            var newHash = respTabsId + (parseInt(tabAriaParts[1], 10) + 1).toString();
+                            // var newHash = respTabsId + (parseInt(tabAriaParts[1], 10) + 1).toString();
+                            var newHash = "research" + (parseInt(tabAriaParts[1], 10) + 1).toString();
+
                             if (currentHash != "") {
                                 var re = new RegExp(respTabsId + "[0-9]+");
                                 if (currentHash.match(re) != null) {
