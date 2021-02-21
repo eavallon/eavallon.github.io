@@ -798,13 +798,13 @@ ul ul, ul ol, ol ul, ol ol {
   color: #2a2e37;
 }
 .btn-outline:hover, .btn-outline:active, .btn-outline:focus {
-  border: 2px solid #282e3c !important;
-  background: #282e3c;
+  border: 2px solid #ffffff !important;
+  background: #D34C3A;
   color: #ffffff;
 }
 
 .btn-primary {
-  background: #D34C3A;
+  background: #2e2e2e;
   border: 2px solid #D34C3A;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
