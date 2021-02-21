@@ -20,8 +20,8 @@
             //Variables
             var options = $.extend(defaults, options);
             var opt = options, jtype = opt.type, jfit = opt.fit, jwidth = opt.width, vtabs = 'vertical', accord = 'accordion';
-            // var hash = window.location.hash;
-            var hash = "research";
+            var hash = window.location.hash;
+            // var hash = "research";
             var historyApi = !!(window.history && history.replaceState);
 
             //Events
@@ -191,8 +191,8 @@
 
                         //Update Browser History
                         if (historyApi) {
-                            // var currentHash = window.location.hash;
-                            var currentHash = "research";
+                            var currentHash = window.location.hash;
+                            // var currentHash = "research";
                             var tabAriaParts = $tabAria.split('tab_item-');
                             // var newHash = respTabsId + (parseInt($tabAria.substring(9), 10) + 1).toString();
                             var newHash = respTabsId + (parseInt(tabAriaParts[1], 10) + 1).toString();
